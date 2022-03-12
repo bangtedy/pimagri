@@ -1,0 +1,9 @@
+---
+title: "Materi"
+base_url: https://bangtedy.github.io/pimagribisnis
+preview: 
+listing: posts
+twitter:
+  site: "@t_hlb"
+  creator: "@c_gebhard"
+---
