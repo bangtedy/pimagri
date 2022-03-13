@@ -5,5 +5,21 @@ preview:
 listing: posts
 twitter:
   site: "@t_hlb"
-  creator: "@c_gebhard"
+  creator: "@t_hlb"
 ---
+
+```{r, include=FALSE, results='asis'}
+library("metathis")
+meta() %>%
+  meta_social(
+    title = "Kepemimpinan Agribisnis",
+    description = "Materi Kuliah Kepemimpinan Agribisnis",
+    url = "https://bangtedy.github.io/pimagribisnis/",
+    image = "",
+    image_alt = "",
+    og_type = "website",
+    og_author = "Tedy Herlambang",
+    twitter_card_type = "summary",
+    twitter_creator = "@t_hlb"
+  )
+```

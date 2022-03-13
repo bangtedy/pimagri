@@ -2,12 +2,20 @@ name: "Merdeka Belajar"
 title: "Kepemimpinan Agribisnis"
 include: [".nojekyll"]
 base_url: https://bangtedy.github.io/pimagribisnis/
+repository_url: https://github.com/bangtedy/pimagribisnis
 description: |
-  Kampus Merdeka
+  Silabus dan Materi Mata Kuliah Kepemimpinan Agribisnis
 output_dir: "docs"
 theme: theme.css
 twitter:
   creator: "@t_hlb"
+collections:
+  posts:
+    share: [facebook, twitter, linkedin]
+    feed_items_max: false
+  galeri:
+    share: [facebook, twitter, linkedin]
+    feed_items_max: false
 navbar:
   right:
     - text: "Home"

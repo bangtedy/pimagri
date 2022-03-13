@@ -8,18 +8,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Deskripsi Mata Kuliah
 
-Mata kuliah ini membahas tentang kepemimpinan dan kekuasaan serta pentingnya keterampilan kepemimpinan selain keterampilan manajerial bagi keberhasilan agribisnis. Pembahasan meliputi berbagai pendekatan dan model kepemimpinan, tipe-tipe kekuasaan serta kepemimpinan sebagai intuisi dan keterampilan.
+Mata kuliah ini membahas tentang kepemimpinan dan kekuasaan serta pentingnya keterampilan kepemimpinan bagi seorang manajer agribisnis. Pembahasan meliputi berbagai pendekatan dan model kepemimpinan, tipe-tipe kekuasaan serta kepemimpinan sebagai intuisi dan keterampilan.
 
 ### Tujuan Pembelajaran
 
-Setelah mengikuti mata kuliah ini, secara umum mahasiswa diharapkan dapat memahami proses pengaruh yang diarahkan untuk membentuk perilaku orang lain. Secara khusus mahasiswa diharapkan membedakan tipe-tipe kekuasaan dan bagaimana pemimpin menggunakannya untuk mempengaruhi orang lain untuk mencapai tujuan tertentu.
+Setelah mengikuti mata kuliah ini, secara umum mahasiswa diharapkan dapat memahami proses terjadinya pengaruh yang diarahkan untuk membentuk perilaku orang lain. Secara khusus mahasiswa diharapkan dapat membedakan tipe-tipe kekuasaan dan bagaimana seorang pemimpin menggunakannya untuk mempengaruhi orang lain untuk mencapai tujuan tertentu.
 
 ### Sekilas Materi
 
 Perkuliahan dilakukan sebanyak 14 kali pertemuan dan 2 kali pertemuan untuk
 ujian tengah semester (**UTS**) dan ujian akhir semester (**UAS**). Topik-topik yang akan dibahas sebagai berikut:
 
-* Minggu 1 Pendahuluan: Kepemimpinan dan Kekuasaan dalam Agribisnis
+* Minggu 1 Kepemimpinan dan Kekuasaan dalam Agribisnis
 * Minggu 2 *Leadership Traits*
 * Minggu 3 Kepemimpinan Pendekatan Perilaku
 * Minggu 4 Kepemimpinan Pendekatan Situasional
@@ -38,8 +38,9 @@ ujian tengah semester (**UTS**) dan ujian akhir semester (**UAS**). Topik-topik 
 
 ### Kegiatan Pembelajaran
 
-Sesuai Keputusan Rektor UPM No:006 tahun 2022 tentang Pelaksanaan Pembelajaran Semester Genap Tahun Akademik 2O21/2O22 menggunakan metode pembelajaran Tatap Muka Terbatas dengan sistem hybrid, mahasiswa harap memperhatikan pengumuman yang disampaikan dosen di WAG yang sudah dibentuk. Untuk mempelajari materi yang disajikan, mahasiswa harus membaca buku acuan pada bab-bab yang sesuai dengan materi pada minggu yang berkaitan dan mengerjakan tugas/latihan yang diberikan pada saat perkuliahan. Mahasiswa harus mereview semua bahan yang diberikan selama 14 kali untuk persiapan UTS dan UAS. Metode perkuliahan adalah kombinasi antara ceramah, diskusi, latihan dan presentasi kelompok. 
+Pelaksanaan Pembelajaran Semester Genap Tahun Akademik 2O21/2O22 dilakukan dengan *Tatap Muka Terbatas*. Metode perkuliahan adalah kombinasi antara ceramah, diskusi, latihan dan presentasi kelompok. Mahasiswa harap memperhatikan pengumuman yang disampaikan dosen di WAG yang sudah dibentuk. 
 
+Untuk dapat mengikuti perkuliahan dengan baik, mahasiswa sebaiknya membaca terlebih dahulu buku acuan pada bab-bab yang sesuai dengan materi pada minggu yang berkaitan dan mengerjakan tugas/latihan yang diberikan pada saat perkuliahan. Mahasiswa harus mereview semua bahan yang diberikan selama 14 kali untuk persiapan UTS dan UAS. 
 
 ### Buku Acuan
 
@@ -51,30 +52,6 @@ Sesuai Keputusan Rektor UPM No:006 tahun 2022 tentang Pelaksanaan Pembelajaran S
 
 4. Van Fleet, David D., Ella W. Van Fleet, and George J. Seperich (2014). Agribusiness: Principles of Management. Cengage Learning.
 
-### Teknologi yang Diperlukan
-
-Teknologi yang diperlukan untuk perkuliahan ini adalah komputer, perangkat pengolah kata dan presentasi, telepon seluler dan koneksi internet. 
-
-### Kejujuran Akademik dan Plagiarisme 
-
-Mahasiswa harus memahami dan mengikuti kebijakan dan aturan Universitas tentang kejujuran akademik dan plagiarisme seperti yang tertuang dalam pedoman akademik. Universitas mendukung hak-hak akademik, menyatakan pendapat dan berekspresi seluruh civitas akademika relatif terhadap tanggung jawabnya seperti yang dijamin oleh konstitusi. 
-
-Pelanggaran terhadap kebijakan tentang kejujuran akademik dan plagiarisme akan diberikan sanksi dari surat teguran, diberi nilai nol, skorsing sampai dikeluarkan dari Universitas.
-
-### Kehadiran dan Disiplin Mahasiswa
-
-Dalam hal perkuliahan dilakukan secara *luring*:
-1. Hadir paling lambat 15 menit. Mahasiswa **TIDAK DIPERKENANKAN** masuk kelas setelah 15 menit kuliah dimulai.
-2. Berpenampilan dan berbusana sopan serta rapi.
-3. Tidak menggunakan sandal atau sejenisnya, serta tidak mengoperasikan ponsel/laptop kecuali diminta untuk keperluan perkualiahan.
-4. Mahasiswa wajib mengikuti perkuliahan minimal 80 persen dari total 14 kali pertemuan, kecuali dengan alasan dan bukti yang valid.
-5. Mahasiswa yang menyelesaikan kurang dari 50% tugas-tugas/ujian yang diberikan akan diberi nilai **E** (tidak lulus). 
-6. Tidak ada ujian dan penugasan perbaikan.
-
-### Tindak Kekerasan dan Pelecehan
-
-Mahasiswa harus selalu menjaga sopan santun dan menghormati semua dosen, tenaga pendidikan, petugas keamanan, tenaga kesehatan dan sesama mahasiswa. Perilaku dan tindak kekerasan, ancaman serta pelecehan yang mendisrupsi kegiatan pembelajaran, mengakibatkan kerusakan fasilitas dan properti kampus, akan diproses sesuai dengan aturan yang berlaku.
-
 ### Evaluasi dan Penilaian
 
 Nilai Akhir untuk mata kuliah Kepemimpinan Agribisnis terdiri dari nilai ujian tengah semester (UTS), nilai ujian akhir semester (UAS) dan nilai komponen lain (KL). Nilai KL terdiri dari tugas individu, tugas kelompok, presentasi, kehadiran dan keaktifan. 
@@ -82,11 +59,12 @@ Nilai Akhir untuk mata kuliah Kepemimpinan Agribisnis terdiri dari nilai ujian t
 ### Tugas Individu/Kelompok
 
 Tugas diberikan pada saat kuliah dan wajib dikerjakan oleh mahasiswa dan
-hasilnya dikumpulkan sesuai dengan waktu yang telah ditetapkan. Keterlambatan pengumpulan tugas akan mengurangi nilai sebesar 10 satuan per hari dengan batas maksimum keterlambantan 5 hari.
+hasilnya dikumpulkan sesuai dengan waktu yang telah ditetapkan. Keterlambatan pengumpulan tugas akan mengurangi nilai sebesar 10 satuan per hari dengan batas maksimum keterlambatan 5 hari.
 
 ### Persebaran NIlai
 
 1. UTS dan UAS dilakukan melalui ujian tertulis dengan bobot maksimum 60%
+
 2. KL dinilai melalui keaktifan mahasiswa pada aktivitas pembelajaran (tugas-tugas, diskusi, presentasi dan kehadiran) dengan bobot 40%.
 
 ### Selang Penilaian
@@ -102,6 +80,34 @@ hasilnya dikumpulkan sesuai dengan waktu yang telah ditetapkan. Keterlambatan pe
 |7|D|1| 45|54.9| T|
 |8|E|0|0|44.9| T|
 
+### Kejujuran Akademik dan Plagiarisme 
+
+Mahasiswa harus mengikuti kebijakan dan aturan Universitas tentang kejujuran akademik dan plagiarisme seperti yang tertuang dalam pedoman akademik. Pelanggaran terhadap kebijakan tentang kejujuran akademik dan plagiarisme akan diberikan sanksi dari surat teguran, diberi nilai nol, skorsing sampai dikeluarkan dari Universitas.
+
+### Kehadiran dan Disiplin Mahasiswa
+
+Dalam hal perkuliahan dilakukan secara *luring*:
+
+1. Hadir paling lambat 15 menit. Mahasiswa **TIDAK DIPERKENANKAN** masuk kelas setelah 15 menit kuliah dimulai.
+
+2. Berpenampilan dan berbusana sopan serta rapi.
+
+3. Tidak menggunakan sandal atau sejenisnya, serta tidak mengoperasikan ponsel/laptop kecuali diminta untuk keperluan perkualiahan.
+
+4. Mahasiswa wajib mengikuti perkuliahan minimal 80 persen dari total 14 kali pertemuan, kecuali dengan alasan dan bukti yang valid.
+
+5. Mahasiswa yang menyelesaikan kurang dari 50% tugas-tugas/ujian yang diberikan akan diberi nilai **E** (tidak lulus). 
+
+6. Tidak ada ujian dan penugasan perbaikan.
+
+### Tindak Kekerasan dan Pelecehan
+
+Mahasiswa harus selalu menjaga sopan santun dan menghormati semua dosen, tenaga pendidikan, petugas keamanan, tenaga kesehatan dan sesama mahasiswa. Perilaku dan tindak kekerasan serta pelecehan yang mendisrupsi kegiatan pembelajaran, mengakibatkan kerusakan fasilitas dan properti kampus, akan diproses sesuai dengan aturan yang berlaku.
+
 ### Evaluasi Perkuliahan dan Dosen
 
 Masukan mahasiswa untuk tujuan perbaikan perkuliahan akan diperhatikan dengan sangat serius. Mahasiswa sangat diharapkan menyisihkan waktu di setiap akhir semester untuk memberikan masukan dan evaluasi terkait dengan pelaksanaan perkuliahan dan dosen pengajar. Evaluasi dan masukan yang diberikan tidak akan mempengaruhi kelulusan dan nilai akhir.
+
+### Teknologi yang Diperlukan
+
+Teknologi yang diperlukan untuk perkuliahan ini adalah komputer dengan perangkat lunak yang mendukung, telepon seluler dan koneksi internet. 
