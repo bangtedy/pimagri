@@ -1,0 +1,96 @@
+---
+title: "Kepemimpinan dan Kekuasaan"
+subtitle: "Dalam Agribisnis"
+author: "Tedy Herlambang"
+institute: "UPM"
+date: " 9 Februari 2022"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default
+      - css/nhsr.css
+      - css/nhsr-fonts.css
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: googlecode
+      highlightLines: true
+      highlightLanguage: ["r"]
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      # after_body: [css/insert-logo.html]
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(NHSRtheme)
+# set default options
+opts_chunk$set(echo = FALSE,
+               fig.width = 7.252,
+               fig.height = 4,
+               dpi = 300)
+
+# uncomment the following lines if you want to use the NHS-R theme colours by default
+# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
+# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
+# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
+# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
+```
+
+class: title-slide, left, bottom
+
+# `r rmarkdown::metadata$title`
+----
+## **`r rmarkdown::metadata$subtitle`**
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$date`
+
+---
+### Pendahuluan
+
+* Pasokan pangan yang cukup kuantitas dan kualitasnya sangat penting bagi keberlangsungan kehidupan manusia. 
+* Sejarah menunjukkan sebuah peradaban dapat runtuh jika sistem pasokan pangannya goyah. 
+* Untuk membangun sistem pangan yang kokoh dibutuhkan kepemimpinan yang efektif.
+* Disaat kekeringan, banjir, gunung meletus, perang, pandemi, depresi ekonomi: apa yang dicari rakyat --> peran kepemimpinan?
+* Dengan menerapkan iptek dan kepemimpinan visioner, manusia berhasil menghasilkan pasokan pangan yang cukup.
+* Tetapi disisi lain masih terdapat persoalan mekanisme distribusi pangan.
+
+---
+### Mengapa diperlukan kepemimpinan di Pertanian?
+
+* Beberapa fokus pada aspek teknis: produksi, pengolahan, keuangan, distribusi dll.
+* Beberapa orang yang bagus kemampuan teknisnya, diangkat ke posisi jabatan lebih tinggi.
+* Kepemimpinan lebih dari manajemen
+* Manajemen salah satu alat di dalam kepemimpinan
+
+---
+
+### Mengapa sangat diperlukan kepemimpinan di Pertanian?
+
+* Semakin kompleks: melibatkan ilmu-ilmu sains, teknik dan ekonomi
+* Peningkatan kebutuhan kepemimpinan agar aspek-aspek itu berjalan harmonis. 
+
+---
+
+### Definisi Kepemimpinan
+
+* Proses mempengaruhi orang lain yang diarahkan untuk membentuk perilakunya 
+* Pertanyaan: taktik apa yang bisa dipakai untuk mencoba mempengaruhi orang lain?
+* Teman Anda mencoba mempengaruhi Anda agar mau makan di warung yang Anda tidak suka
+
+---
+class: inverse, middle, center
+### Kepemimpinan vs Manajemen
+Apa perbedaan antara leadership dengan management?
+
+---
+### Tantangan Kepemimpinan
+
+* Tantangan kepemimpinan agribisnis di jaman *Now*
+
+### Kekuasaaan dan Kepemimpinan
+
+* Jenis-jenis kekuasaan
+* Penggunaan, keterbatasan dan dampak pemakaian kekuasaan
