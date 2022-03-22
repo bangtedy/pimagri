@@ -1,0 +1,148 @@
+---
+title: "Individu sebagai Pemimpin (1)"
+description: |
+  Siapa dan Seperti Apakah Seorang Pemimpin Itu?
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+date: 2022-03-16
+draft: false
+base_url: https://bangtedy.github.io/pimagribisnis
+twitter:
+  creator: "@t_hlb"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Capaian Pembelajaran
+
+Setelah mempelajari materi ini, mahasiswa `seharusnya` dapat:
+
+1. Menjelaskan secara singkat 5 elemen kunci kepemimpinan.
+2. Menjelaskan dan mengidentifikasi keterampilan kepemimpinan manajerial.
+3. Menjelaskan sepuluh peran manajerial atas dasar tiga kategori. 
+4. Menjelaskan hubungan antara tingkatan-tingkatan analisis kepemimpinan. 
+5. Menjelaskan perbedaan dan persamaan utama antara teori trait, perilaku dan kontingensi dalam kepemimpinan. 
+
+
+### Lima Elemen Kunci Kepemimpinan
+Coba perhatikan salah satu definisi kepemimpinan berikut:
+
+> Leadership is the influencing process between leaders and followers to achieve orga-
+nizational objectives through change. 
+
+Dari definisi kepemimpinan ini, kita dapat menyimpulkan 5 elemen utama kepemimpinan yaitu: (1) Leaders–Followers, (2) Influence, (3) Organizational Objectives, (4) Change dan (5) People.
+
+### 1. Pemimpin-Pengikut (*Leaders–Followers*)
+
+* Kepemimpinan dapat dipahami terjadi dimana pemimpin dan pengikut menjadi anggota organisasi formal yang sama. 
+* Kepemimpinan itu di*shared*. Seoranga tidak bisa memikirkan dan mengerjakan semuanya sendiri. 
+- Kepemimpinan itu berlaku jamak, bukan tunggal, karena kita bisa memiliki banyak pemimpin. 
+- Pengikut yang baik juga berperan sebagai pemimpin pada saat diperlukan. 
+- Pengikut juga mempengaruhi pemimipin. Jadi dalam kepemimpinan terjadi pengaruh timbal balik antara pemimpin dan pengikut. 
+- Tahu cara memimpin dan mempelajari keterampilan kepemimpinan, akan membuat Anda menjadi seorang pemimpin dan pengikut yang lebih baik. 
+
+#### * Manager dan Bawahan
+
+- Di dalam organisasi terdapat dua golongan: manajer yang mempunyai staff/bawahan dan otoritas formal untuk memerintah bawahan; dan bawahan yang tidak punya otoritas memerintah. 
+- Manajer melakukan empat fungsi: planning, organizing, leading, and controlling. 
+- Kepemimpinan adalah bagian dari pekerjaan seorang manajer.
+
+> Ada manajer, tapi tidak efektif sebagai pemimpin
+> Ada juga bukan manajer, tetapi punya pengaruh besar orang lain
+
+#### Manajer, Pemimpin dan Pengikut
+
+##### Manajer dan Pemimpin
+Kata manajer sering diartikan sebagai orang yang punya otoritas dan jabatan formal. Kata pemimpin bisa berarti manajer atau bukan manajer/tidak punya jabatan formal, tetapi memiliki kemampuan untuk mempengaruhi orang lain (bisa manajer atau rekan kerja). Seorang pemimpin mempunyai kemampuan mempengaruhi orang lain, seorang manajer mungkin tidak punya kemampuan ini. Jadi seorang pemimpin belum seorang yang mempunyai jabatan resmi seperti manajer. 
+
+##### Pengikut
+
+- Seorang pengikut adalah seseorang yang dipengaruhi oleh seorang leader. 
+- Seorang pengikut bisa seorang manajer atau bukan manajer.
+- Pengikut yang baik bukanlah "asal bapak senang" atau ABS.
+- Kualitas yang diperlukan untuk kepemimpinan yang efektif sama dengan yang diperlukan untuk menjadi pengikut yang efektif.
+
+### 2. Pengaruh (*Influence*)
+
+- Mempengaruhi adalah suatu proses dimana seorang pemimpin menyampaikan idenya, diterima oleh pengikutnya dan memotivasi pengikutnya untuk mendukung dan melaksanakan ide-ide melalui perubahan. 
+- Inti dari kepemimpinan adalah **mempengaruhi**.
+
+### 3. Tujuan Organisasi (*Organizational Objectives*)
+
+- Pemimpin yang efektif mempengaruhi pengikutnya untuk mencapai tujuan yang disepakati.
+- Anggota organisasi perlu bekerja sama untuk mencapai luaran yang diinginkan baik oleh pemimpin dan pengikut, yaitu masa depan yang diidamkan dan memotivasi mereka untuk mencapai tujuan ini.
+
+### 4. Perubahan (*Change*)
+
+- Mempengaruhi dan menentukan tujuan berhubungan dengan perubahan karena pemimpin menetapkan tujuan untuk suatu perubahan perilaku. 
+- Pemimpin membawa perubahan dengan meminta pengikutnya untuk mengubah status quo, untuk terus memperbaiki proses kerja dan mengembangkan produk  dan layanan bary yang inovatif. 
+
+
+### 5. Manusia (*People*)
+
+- Manusia adalah unsur utama di dalam kepemimpinan karena kepemimpinan berhubungan dengan mengarahkan manusia melalui relasi. Manusia jugalah yang menuntaskan tujuan yang telah ditetapkan. 
+
+> Apakah seorang pemimpin dilahirkan atau diciptakan?
+
+> Research supports that leadership is learnable, that students can develop their leadership skills, including their knowledge, skills, and abilities.
+
+#### Keterampilan Manajerial
+
+- **Technical skills**: kemampuan untuk menggunakan metode dan teknik untuk melakukan suatu tugas. 
+- **Interpersonal skills**: kemampuan untuk memahami, berkomunikasi dan bekerja secara baik dengan individu-indovidu dan tim melakukan relasi yang efektif.  
+- **Decision-making skills**: kemampuan mengkonsepkan persoalan-persoalan dan memilih alternatif-alternatif untuk memecahkan persoalan serta memanfaatkan peluang yang ada. 
+
+#### Tiga Keterampilan Kepemimpinan
+
+1. Interpersonal roles: Leader, Figurehead, Liaison
+
+2. Informational roles: Monitor, Disseminator, Spokesperson
+
+3. Decisional roles: Entrepreneur, Disturbance-handler, Resource-allocator, Negotiator
+
+#### Tiga Tingkatan Analisis Teori Kepemimpinan
+
+1. Tingkat Individu: berpusat pada individu pemimpin dan hubungan dengannya individu-individu pengikut. 
+
+2. Tingkat Kelompok: berpusat pada hubungan antara pemimpin dengan sekelompok pengikut. 
+
+3. Tingkat Organisasi: berfokus pada proses organisasi yang terdiri dari individu-individu dan tim-tim. 
+
+### Paradigma Teori Kepemimpinan
+
+- Sebuah teori kepemimpinan adalah suatu penjelasan tentang beberapa aspek dari kepemimpinan.
+- Manfaat praktis dari kepemimpinan adalah teori itu digunakan untuk dapat memahami, memprediksi dan mengawasi keberhasilan kepemimpinan dengan lebih baik. 
+- Teori kepemimpinan dapat digolongkan menjadi: trait, behavioral, contingency, dan  integrative theories.
+
+### Paradigma Teori Trait
+
+- Leadership trait theories mencoba menjelaskan karakteristik unik (yang ada pada seseorang) sehingga kepemimpinannya efektif. 
+- Para peneliti menganalisis ciri-ciri fisik dan psikologis seperti high energy level, appearance, aggressiveness, self-reliance, persuasiveness, dan dominance.
+- Menurut teori ini, great leaders possessed a set of stable and enduring leadership traits or characteristics that set them apart from followers: intelligence,height, self-confidence,attractiveness,vocabulary. 
+
+### Paradigma Teori Perilaku (*The Behavioral Leadership Theory Paradigm*)
+- Peneliti mencoba mengidentifikasi perbedaan *perilaku* pemimpin yang efektif dengan yang tidak. 
+- Teori ini mencoba menjelaskan gaya unik yang dipakai oleh pemimpin yang efektif.
+
+### Paradigma Teori Kepemimpinan Kontingensi (*the Contingency Leadership theory Paradigm*)
+
+- Para peneliti menyadari bahawa tidak ada gaya kepemimpinan terbaik di dalam semua situasi. Efektivitas kepemimpinan tergantung pada situasinya. 
+- Ini mengakibatkan pergeseran paradigma ke teori kontingensi. 
+- Teori kepemimpinan kontingensi mencoba menjelaskan ketepatan gaya kepemimpinan berdasarkan pemimpin, pengikut dan situasinya. 
+- Dengan kata lain, ciri-ciri dan/atau perilaku bisa menghasilkan kepemimpinan yang efektif tergantung pada situasinya. 
+
+### Teori Kepemimpinan Integratif (*the Integrative Leadership theory paradigm*)
+
+- Di pertengahan tahun 70-an, paradigma mulai bergeser pada integratif yang memadukan semua teori. Disebut juga sebagai *neo-charismatic theory*. 
+- Teori ini mencoba mengkombinasikan trait, behavioral, dan contingency theories untuk menjelaskan keberhasilan kepemimpinan. 
+- Teori-teori ini mengidentifikasi perilaku, ciri-ciri yang memfasilitasi efektivitas pemimpin dan mengeksplorasi mengapa perilaku seorang pemimpin mempunyai dampak berbeda tergantung pada situasinya. 
+
+

@@ -1,7 +1,24 @@
 ---
 title: "Kepemimpinan Agribisnis"
 site: distill::distill_website
+creative_commons: CC BY
 ---
+```{r, include=FALSE, results='asis'}
+library(metathis)
+
+meta() %>%
+  meta_social(
+    title = "Kepemimpinan Agribisnis",
+    description = "Silabus dan Materi Kepemimpinan Agribisnis",
+    url = "https://bangtedy.github.io/pimagribisnis",
+    image = "",
+    image_alt = "",
+    og_type = "website",
+    twitter_card_type = "summary",
+    twitter_site = NULL
+  )
+```
+
 ### Kode Mata Kuliah: PAGR2637
 
 ### SKS/Pertemuan: 3/16

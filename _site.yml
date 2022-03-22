@@ -1,17 +1,25 @@
-name: "source-for-distill"
+name: "Kepemimpinan Agribisnis"
 title: "Kepemimpinan Agribisnis"
 description: |
-  My Blog
+  Silabus dan Materi Kepemimpinan Agribisnis
 output_dir: "docs"
 theme: theme.css
+base_url: https://bangtedy.github.io/pimagribisnis
+twitter:
+  creator: "@t_hlb"
+repository_url: https://github.com/bangtedy/pimagribisnis
+creative_common: CC BY
+collections:
+  posts:
+    share: [twitter,facebook,linkedin]
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "Silabus"
       href: about.html
-    - text: "Materi UTS"
-      menu:
-        - text: "Minggu 1"
-          href: minggu1/minggu1.html
+    - text: "Materi"
+      href: blog.html
+    - icon: fa fa-rss
+      href: index.xml
 output: distill::distill_article
