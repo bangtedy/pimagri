@@ -3,7 +3,7 @@ title: "Kepemimpinan Agribisnis"
 description: |
   Silabus dan Materi Kepemimpinan Agribisnis
 output_dir: "docs"
-theme: theme.css
+theme: custom.css
 base_url: https://bangtedy.github.io/pimagribisnis
 twitter:
   creator: "@t_hlb"
@@ -14,7 +14,7 @@ collections:
     share: [twitter,facebook,linkedin]
 navbar:
   right:
-    - text: "Home"
+    - icon: fa-home
       href: index.html
     - text: "Silabus"
       href: about.html
