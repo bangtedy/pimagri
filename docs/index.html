@@ -87,40 +87,637 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Individu sebagai Pemimpin (1)</title>
-
-  <meta property="description" itemprop="description" content="Siapa dan Seperti Apakah Seorang Pemimpin Itu?"/>
+  <title>Kepemimpinan Agribisnis</title>
 
 
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-03-16"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-03-16"/>
-  <meta name="article:author" content="Tedy Herlambang"/>
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Individu sebagai Pemimpin (1)"/>
+  <meta property="og:title" content="Kepemimpinan Agribisnis"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Siapa dan Seperti Apakah Seorang Pemimpin Itu?"/>
   <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Kepemimpinan Agribisnis"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Individu sebagai Pemimpin (1)"/>
-  <meta property="twitter:description" content="Siapa dan Seperti Apakah Seorang Pemimpin Itu?"/>
+  <meta property="twitter:title" content="Kepemimpinan Agribisnis"/>
   <meta property="twitter:creator" content="@t_hlb"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","draft","base_url","twitter","output"]}},"value":[{"type":"character","attributes":{},"value":["Individu sebagai Pemimpin (1)"]},{"type":"character","attributes":{},"value":["Siapa dan Seperti Apakah Seorang Pemimpin Itu?\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Tedy Herlambang"]},{"type":"character","attributes":{},"value":["https://bangtedy.github.io"]},{"type":"character","attributes":{},"value":["0000-0002-7296-4357"]}]}]},{"type":"character","attributes":{},"value":["2022-03-16"]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["https://bangtedy.github.io/pimagribisnis"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creator"]}},"value":[{"type":"character","attributes":{},"value":["@t_hlb"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","creative_commons"]}},"value":[{"type":"character","attributes":{},"value":["Kepemimpinan Agribisnis"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["CC BY"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  
-  <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["minggu-2_files/anchor-4.2.2/anchor.min.js","minggu-2_files/bowser-1.9.3/bowser.min.js","minggu-2_files/distill-2.2.21/template.v2.js","minggu-2_files/header-attrs-2.13/header-attrs.js","minggu-2_files/jquery-3.6.0/jquery-3.6.0.js","minggu-2_files/jquery-3.6.0/jquery-3.6.0.min.js","minggu-2_files/jquery-3.6.0/jquery-3.6.0.min.map","minggu-2_files/popper-2.6.0/popper.min.js","minggu-2_files/tippy-6.2.7/tippy-bundle.umd.min.js","minggu-2_files/tippy-6.2.7/tippy-light-border.css","minggu-2_files/tippy-6.2.7/tippy.css","minggu-2_files/tippy-6.2.7/tippy.umd.min.js","minggu-2_files/webcomponents-2.0.0/webcomponents.js"]}
-  </script>
   <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1444,17 +2041,391 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">/* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville');
+  @import url('https://fonts.googleapis.com/css2?family=Inter');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    "Libre Baskerville", sans-serif;
+    --mono-font:       "Fira Code", monospace;
+    --body-font:       "Inter", sans-serif;
+    --navbar-font:     "Libre Baskerville", sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #004543;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #004543;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+  .d-title {
+    background-color: #EFEFF8;
+    border-bottom: 1px dotted #333;
+  }
+
+  .dt-tags .dt-tag {
+    padding: 0em 1em;
+    border-radius: 14px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 6px #DDD;
+  }
+
+  div.sourceCode pre {
+    background-color: #EFEFF8;
+    overflow: auto !important;
+    padding-left: 18px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+  }
+  .sourceCode { overflow: auto !important; }
+  @media(min-width: 768px) {
+    d-article pre,
+    d-article div.sourceCode,
+    d-article div.sourceCode pre {
+      overflow: auto !important;
+    }
+  }
+
+  .obj {
+    border: 2px #002855;
+    border-style: solid;
+    padding: 1em;
+    margin: 1em 0;
+    min-height: 120px;
+    /*color: #638f9d;*/
+    color: #002855;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: "Roboto";
+    /*background-image: url("../images/arrow.png");*/
+  }
+
+  .obj>p:first-child {
+    padding-top: 0;
+    margin-top: 0 !important;
+    font-family: "Lora";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="minggu-2_files/header-attrs-2.13/header-attrs.js"></script>
-  <script src="minggu-2_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <script src="minggu-2_files/popper-2.6.0/popper.min.js"></script>
-  <link href="minggu-2_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="minggu-2_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="minggu-2_files/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="minggu-2_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="minggu-2_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="minggu-2_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="minggu-2_files/distill-2.2.21/template.v2.js"></script>
+  <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+  <meta name="twitter:title" content="Kepemimpinan Agribisnis"/>
+  <meta name="twitter:description" content="Silabus dan Materi Kepemimpinan Agribisnis"/>
+  <meta name="twitter:url" content="https://bangtedy.github.io/pimagribisnis"/>
+  <meta name="twitter:image" content=""/>
+  <meta name="twitter:image:alt" content=""/>
+  <meta name="twitter:card" content="summary"/>
+  <meta property="og:title" content="Kepemimpinan Agribisnis"/>
+  <meta property="og:description" content="Silabus dan Materi Kepemimpinan Agribisnis"/>
+  <meta property="og:url" content="https://bangtedy.github.io/pimagribisnis"/>
+  <meta property="og:image" content=""/>
+  <meta property="og:image:alt" content=""/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="en_US"/>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1466,230 +2437,47 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Individu sebagai Pemimpin (1)","description":"Siapa dan Seperti Apakah Seorang Pemimpin Itu?","authors":[{"author":"Tedy Herlambang","authorURL":"https://bangtedy.github.io","affiliation":"&nbsp;","affiliationURL":"#","orcidID":"0000-0002-7296-4357"}],"publishedDate":"2022-03-16T00:00:00.000+07:00","citationText":"Herlambang, 2022"}
+{"title":"Kepemimpinan Agribisnis","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Kepemimpinan Agribisnis</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="index.html">
+<i class="fa fa-home" aria-hidden="true"></i>
+</a>
+<a href="about.html">Silabus</a>
+<a href="blog.html">Materi</a>
+<a href="index.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Individu sebagai Pemimpin (1)</h1>
+<h1>Kepemimpinan Agribisnis</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Siapa dan Seperti Apakah Seorang Pemimpin Itu?</p></p>
+
 </div>
 
-<div class="d-byline">
-  Tedy Herlambang <a href="https://bangtedy.github.io"
-class="uri">https://bangtedy.github.io</a> 
-  
-<br/>2022-03-16
-</div>
 
 <div class="d-article">
-<h3 id="capaian-pembelajaran">Capaian Pembelajaran</h3>
-<p>Setelah mempelajari materi ini, mahasiswa <code>seharusnya</code>
-dapat:</p>
-<ol type="1">
-<li>Menjelaskan secara singkat 5 elemen kunci kepemimpinan.</li>
-<li>Menjelaskan dan mengidentifikasi keterampilan kepemimpinan
-manajerial.</li>
-<li>Menjelaskan sepuluh peran manajerial atas dasar tiga kategori.</li>
-<li>Menjelaskan hubungan antara tingkatan-tingkatan analisis
-kepemimpinan.</li>
-<li>Menjelaskan perbedaan dan persamaan utama antara teori trait,
-perilaku dan kontingensi dalam kepemimpinan.</li>
-</ol>
-<h3 id="lima-elemen-kunci-kepemimpinan">Lima Elemen Kunci
-Kepemimpinan</h3>
-<p>Coba perhatikan salah satu definisi kepemimpinan berikut:</p>
-<blockquote>
-<p>Leadership is the influencing process between leaders and followers
-to achieve orga- nizational objectives through change.</p>
-</blockquote>
-<p>Dari definisi kepemimpinan ini, kita dapat menyimpulkan 5 elemen
-utama kepemimpinan yaitu: (1) Leaders–Followers, (2) Influence, (3)
-Organizational Objectives, (4) Change dan (5) People.</p>
-<h3 id="pemimpin-pengikut-leadersfollowers">1. Pemimpin-Pengikut
-(<em>Leaders–Followers</em>)</h3>
-<ul>
-<li>Kepemimpinan dapat dipahami terjadi dimana pemimpin dan pengikut
-menjadi anggota organisasi formal yang sama.</li>
-<li>Kepemimpinan itu di<em>shared</em>. Seoranga tidak bisa memikirkan
-dan mengerjakan semuanya sendiri.</li>
-<li>Kepemimpinan itu berlaku jamak, bukan tunggal, karena kita bisa
-memiliki banyak pemimpin.</li>
-<li>Pengikut yang baik juga berperan sebagai pemimpin pada saat
-diperlukan.</li>
-<li>Pengikut juga mempengaruhi pemimipin. Jadi dalam kepemimpinan
-terjadi pengaruh timbal balik antara pemimpin dan pengikut.</li>
-<li>Tahu cara memimpin dan mempelajari keterampilan kepemimpinan, akan
-membuat Anda menjadi seorang pemimpin dan pengikut yang lebih baik.</li>
-</ul>
-<h4 id="manager-dan-bawahan">* Manager dan Bawahan</h4>
-<ul>
-<li>Di dalam organisasi terdapat dua golongan: manajer yang mempunyai
-staff/bawahan dan otoritas formal untuk memerintah bawahan; dan bawahan
-yang tidak punya otoritas memerintah.</li>
-<li>Manajer melakukan empat fungsi: planning, organizing, leading, and
-controlling.</li>
-<li>Kepemimpinan adalah bagian dari pekerjaan seorang manajer.</li>
-</ul>
-<blockquote>
-<p>Ada manajer, tapi tidak efektif sebagai pemimpin. Ada juga bukan
-manajer, tetapi punya pengaruh besar pada orang lain.</p>
-</blockquote>
-<h4 id="manajer-pemimpin-dan-pengikut">Manajer, Pemimpin dan
-Pengikut</h4>
-<h5 id="manajer-dan-pemimpin">Manajer dan Pemimpin</h5>
-<p>Kata manajer sering diartikan sebagai orang yang punya otoritas dan
-jabatan formal. Kata pemimpin bisa berarti manajer atau bukan
-manajer/tidak punya jabatan formal, tetapi memiliki kemampuan untuk
-mempengaruhi orang lain (bisa manajer atau rekan kerja). Seorang
-pemimpin mempunyai kemampuan mempengaruhi orang lain, seorang manajer
-mungkin tidak punya kemampuan ini. Jadi seorang pemimpin belum seorang
-yang mempunyai jabatan resmi seperti manajer.</p>
-<h5 id="pengikut">Pengikut</h5>
-<ul>
-<li>Seorang pengikut adalah seseorang yang dipengaruhi oleh seorang
-leader.</li>
-<li>Seorang pengikut bisa seorang manajer atau bukan manajer.</li>
-<li>Pengikut yang baik bukanlah “asal bapak senang” atau ABS.</li>
-<li>Kualitas yang diperlukan untuk kepemimpinan yang efektif sama dengan
-yang diperlukan untuk menjadi pengikut yang efektif.</li>
-</ul>
-<h3 id="pengaruh-influence">2. Pengaruh (<em>Influence</em>)</h3>
-<ul>
-<li>Mempengaruhi adalah suatu proses dimana seorang pemimpin
-menyampaikan idenya, diterima oleh pengikutnya dan memotivasi
-pengikutnya untuk mendukung dan melaksanakan ide-ide melalui
-perubahan.</li>
-<li>Inti dari kepemimpinan adalah <strong>mempengaruhi</strong>.</li>
-</ul>
-<h3 id="tujuan-organisasi-organizational-objectives">3. Tujuan
-Organisasi (<em>Organizational Objectives</em>)</h3>
-<ul>
-<li>Pemimpin yang efektif mempengaruhi pengikutnya untuk mencapai tujuan
-yang disepakati.</li>
-<li>Anggota organisasi perlu bekerja sama untuk mencapai luaran yang
-diinginkan baik oleh pemimpin dan pengikut, yaitu masa depan yang
-diidamkan dan memotivasi mereka untuk mencapai tujuan ini.</li>
-</ul>
-<h3 id="perubahan-change">4. Perubahan (<em>Change</em>)</h3>
-<ul>
-<li>Mempengaruhi dan menentukan tujuan berhubungan dengan perubahan
-karena pemimpin menetapkan tujuan untuk suatu perubahan perilaku.</li>
-<li>Pemimpin membawa perubahan dengan meminta pengikutnya untuk mengubah
-status quo, untuk terus memperbaiki proses kerja dan mengembangkan
-produk dan layanan bary yang inovatif.</li>
-</ul>
-<h3 id="manusia-people">5. Manusia (<em>People</em>)</h3>
-<ul>
-<li>Manusia adalah unsur utama di dalam kepemimpinan karena kepemimpinan
-berhubungan dengan mengarahkan manusia melalui relasi. Manusia jugalah
-yang menuntaskan tujuan yang telah ditetapkan.</li>
-</ul>
-<blockquote>
-<p>Apakah seorang pemimpin dilahirkan atau diciptakan?</p>
-</blockquote>
-<blockquote>
-<p>Research supports that leadership is learnable, that students can
-develop their leadership skills, including their knowledge, skills, and
-abilities.</p>
-</blockquote>
-<h4 id="keterampilan-manajerial">Keterampilan Manajerial</h4>
-<ul>
-<li><strong>Technical skills</strong>: kemampuan untuk menggunakan
-metode dan teknik untuk melakukan suatu tugas.</li>
-<li><strong>Interpersonal skills</strong>: kemampuan untuk memahami,
-berkomunikasi dan bekerja secara baik dengan individu-indovidu dan tim
-melakukan relasi yang efektif.<br />
-</li>
-<li><strong>Decision-making skills</strong>: kemampuan mengkonsepkan
-persoalan-persoalan dan memilih alternatif-alternatif untuk memecahkan
-persoalan serta memanfaatkan peluang yang ada.</li>
-</ul>
-<h4 id="tiga-keterampilan-kepemimpinan">Tiga Keterampilan
-Kepemimpinan</h4>
-<ol type="1">
-<li><p>Interpersonal roles: Leader, Figurehead, Liaison</p></li>
-<li><p>Informational roles: Monitor, Disseminator, Spokesperson</p></li>
-<li><p>Decisional roles: Entrepreneur, Disturbance-handler,
-Resource-allocator, Negotiator</p></li>
-</ol>
-<h4 id="tiga-tingkatan-analisis-teori-kepemimpinan">Tiga Tingkatan
-Analisis Teori Kepemimpinan</h4>
-<ol type="1">
-<li><p>Tingkat Individu: berpusat pada individu pemimpin dan hubungan
-dengannya individu-individu pengikut.</p></li>
-<li><p>Tingkat Kelompok: berpusat pada hubungan antara pemimpin dengan
-sekelompok pengikut.</p></li>
-<li><p>Tingkat Organisasi: berfokus pada proses organisasi yang terdiri
-dari individu-individu dan tim-tim.</p></li>
-</ol>
-<h3 id="paradigma-teori-kepemimpinan">Paradigma Teori Kepemimpinan</h3>
-<ul>
-<li>Sebuah teori kepemimpinan adalah suatu penjelasan tentang beberapa
-aspek dari kepemimpinan.</li>
-<li>Manfaat praktis dari kepemimpinan adalah teori itu digunakan untuk
-dapat memahami, memprediksi dan mengawasi keberhasilan kepemimpinan
-dengan lebih baik.</li>
-<li>Teori kepemimpinan dapat digolongkan menjadi: trait, behavioral,
-contingency, dan integrative theories.</li>
-</ul>
-<h3 id="paradigma-teori-trait">Paradigma Teori Trait</h3>
-<ul>
-<li>Leadership trait theories mencoba menjelaskan karakteristik unik
-(yang ada pada seseorang) sehingga kepemimpinannya efektif.</li>
-<li>Para peneliti menganalisis ciri-ciri fisik dan psikologis seperti
-high energy level, appearance, aggressiveness, self-reliance,
-persuasiveness, dan dominance.</li>
-<li>Menurut teori ini, great leaders possessed a set of stable and
-enduring leadership traits or characteristics that set them apart from
-followers: intelligence,height,
-self-confidence,attractiveness,vocabulary.</li>
-</ul>
-<h3
-id="paradigma-teori-perilaku-the-behavioral-leadership-theory-paradigm">Paradigma
-Teori Perilaku (<em>The Behavioral Leadership Theory Paradigm</em>)</h3>
-<ul>
-<li>Peneliti mencoba mengidentifikasi perbedaan <em>perilaku</em>
-pemimpin yang efektif dengan yang tidak.</li>
-<li>Teori ini mencoba menjelaskan gaya unik yang dipakai oleh pemimpin
-yang efektif.</li>
-</ul>
-<h3
-id="paradigma-teori-kepemimpinan-kontingensi-the-contingency-leadership-theory-paradigm">Paradigma
-Teori Kepemimpinan Kontingensi (<em>the Contingency Leadership theory
-Paradigm</em>)</h3>
-<ul>
-<li>Para peneliti menyadari bahawa tidak ada gaya kepemimpinan terbaik
-di dalam semua situasi. Efektivitas kepemimpinan tergantung pada
-situasinya.</li>
-<li>Ini mengakibatkan pergeseran paradigma ke teori kontingensi.</li>
-<li>Teori kepemimpinan kontingensi mencoba menjelaskan ketepatan gaya
-kepemimpinan berdasarkan pemimpin, pengikut dan situasinya.</li>
-<li>Dengan kata lain, ciri-ciri dan/atau perilaku bisa menghasilkan
-kepemimpinan yang efektif tergantung pada situasinya.</li>
-</ul>
-<h3
-id="teori-kepemimpinan-integratif-the-integrative-leadership-theory-paradigm">Teori
-Kepemimpinan Integratif (<em>the Integrative Leadership theory
-paradigm</em>)</h3>
-<ul>
-<li>Di pertengahan tahun 70-an, paradigma mulai bergeser pada integratif
-yang memadukan semua teori. Disebut juga sebagai <em>neo-charismatic
-theory</em>.</li>
-<li>Teori ini mencoba mengkombinasikan trait, behavioral, dan
-contingency theories untuk menjelaskan keberhasilan kepemimpinan.</li>
-<li>Teori-teori ini mengidentifikasi perilaku, ciri-ciri yang
-memfasilitasi efektivitas pemimpin dan mengeksplorasi mengapa perilaku
-seorang pemimpin mempunyai dampak berbeda tergantung pada
-situasinya.</li>
-</ul>
+<h3 id="kode-mata-kuliah-pagr2637">Kode Mata Kuliah: PAGR2637</h3>
+<h3 id="skspertemuan-316">SKS/Pertemuan: 3/16</h3>
+<h3 id="dosen-tedy-herlambang">Dosen: <a
+href="https://bangtedy.github.io">Tedy Herlambang</a></h3>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
@@ -1703,7 +2491,12 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="updates-and-corrections">Corrections</h3>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/bangtedy/pimagribisnis/issues/new">create an issue</a> on the source repository.</p>
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/bangtedy/pimagribisnis">https://github.com/bangtedy/pimagribisnis</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->
