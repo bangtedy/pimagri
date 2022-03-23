@@ -15,7 +15,7 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      50px;
+  --title-size:      35px;
   --body-size:       1.06rem;
   --code-size:       14px;
   --aside-size:      12px;
@@ -120,7 +120,7 @@ d-article div.sourceCode pre {
 }
 
 .obj {
-  border: 4px #002855;
+  border: 2px #002855;
   border-style: solid;
   padding: 1em;
   margin: 1em 0;
@@ -129,7 +129,7 @@ d-article div.sourceCode pre {
   color: #002855;
   background-color: #ffffff;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1em;
   font-family: "Roboto";
   /*background-image: url("../images/arrow.png");*/
 }
