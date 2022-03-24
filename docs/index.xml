@@ -3,7 +3,7 @@
   <channel>
     <title>Pim Agribisnis</title>
     <link>https://bangtedy.github.io/pimagribisnis</link>
-    <atom:link href="https://bangtedy.github.io/pimagribisnis/blog.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://bangtedy.github.io/pimagribisnis/index.xml" rel="self" type="application/rss+xml"/>
     <description>Silabus dan Materi Kepemimpinan Agribisnis
 </description>
     <generator>Distill</generator>

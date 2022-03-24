@@ -1,7 +1,10 @@
 ---
-title: "Kepemimpinan Agribisnis"
+title: "Pim Agribisnis"
 site: distill::distill_website
 creative_commons: CC BY
+listing: posts
+twitter:
+  creator: "@t_hlb"
 ---
 ```{r, include=FALSE, results='asis'}
 library(metathis)
@@ -19,8 +22,4 @@ meta() %>%
   )
 ```
 
-### Kode Mata Kuliah: PAGR2637
 
-### SKS/Pertemuan: 3/16
-
-### Dosen: [Tedy Herlambang](https://bangtedy.github.io)
