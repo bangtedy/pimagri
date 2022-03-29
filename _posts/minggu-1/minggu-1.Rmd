@@ -67,4 +67,10 @@ Apa perbedaan antara leadership dengan management?
 * Jenis-jenis kekuasaan
 * Penggunaan, keterbatasan dan dampak pemakaian kekuasaan
 
-
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/pimagribisnis" data-a2a-title="Kepemimpinan dan Kekuasaan dalam Agribisnis">
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_telegram"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->

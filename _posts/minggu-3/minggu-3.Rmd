@@ -1,0 +1,249 @@
+---
+title: "Ciri-ciri dan Kepribadian Pemimpin"
+description: |
+  Individu sebagai pemimpin (2).
+
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+
+base_url: https://bangtedy.github.io/pimagribisnis
+twitter:
+  creator: "@t_hlb"
+
+date: 2022-03-29
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Learning Outcomes
+
+Setelah mempelajari bab ini, Anda seharusnya dapat:
+
+1. Menjelaskan universalitas sifat/ciri bawaan pemimpin efektif (*traits of effective leaders*).
+
+2. Menjelaskan dimensi lima kepribadian utama (*the Big Five personality dimensions*)
+3. Menjelaskan alasan sifat dominasi penting dimiliki oleh manajer.
+4. Menjelaskan bagaimana *Achievement Motivation Theory* dan *Leader Motive Profile* berkaitan tetapi berbeda.
+5. Menjelaskan perbedaan dan persamaan antara Teori X dan Teori Y, efek Pygmalion dan konsep diri. 
+6. Menjelaskan bagaimana sikap digunakan untuk mengembangakan gaya kepemimpinan. 
+
+
+---
+
+### Ciri Bawaan dan Universalitas Ciri Bawaan Pemimpin 
+
+- beberapa ahli percaya bahwa hal yang paling penting tentang seorang pemimpin adalah sifat/ciri yang dibawa sejak lahir dibandingkan dengan keterampilan (yang dipelajari). 
+
+#### Kepribadian dan Ciri Bawaan
+- Ciri bawaan (*traits*): membedakan karakteristik pribadi. Citra yang diproyeksikan oleh seseorang sebagian besar berdasarkan sifat bawaan seseorang. 
+- Kepribadian adalah kombinasi dari berbagai sifat bawaan yang mengkelompokkan perilaku-perilaku individu. 
+- Kepribadian berkembang dari keturunan dan lingkungan. 
+  - Gen seseorang menentukan kepribadiannya.
+  - Your family,friends, school, and work also influence your personality. 
+  
+  > Jadi kepribadian kita sebagian sudah ada sejak lahir, sebagian karena dipelajari dan kita bisa berubah, ..., but it takes time and effort
+
+---
+
+### Why Understanding Personality Is Important
+
+- Understanding people’s personalities is important because personality affects behavior as well as perceptions and attitudes.
+- Understanding personalities helps us explain and predict others’ behaviour and job performance.
+
+### Profil Kepribadian (*personality profiles*)
+
+- Personality profiles identify individual stronger and weaker traits.
+
+---
+
+### The Big Five Correlates with Leadership
+
+- The Big Five Model of personality categorizes traits into the dimensions of surgency, agreeableness, adjustment, conscientiousness, and openness to experience.
+
+- The Big Five personality dimensions correlations with leadership:
+
+  - The highest correlation with leadership was surgency (.31), followed by conscientiousness (.28) and openness to experience (24). 
+  - Agreeableness was weakly correlated (.08), and 
+  - adjustment was negatively correlated with leadership (–.24).
+  
+  > People high in surgency are perceived as leaderlike—they work hard, and they bring about change. They are not too concerned about being well liked and trying to please everyone, and they are stable or not overly emotional.
+
+---
+
+### Menonjol (`Surgency`)
+
+- The surgency personality dimension includes dominance, extraversion, and high
+energy with determination.
+
+  - **Dominance**: Successful leaders assert themselves and want to be managers and to take charge. If you do not want to be a leader, chances are you will not be an effective manager. Thus, the dominance trait affects all the other traits related to effective leaders. 
+
+  - **Extraversion**: It is on a continuum between extravert and introvert. Extraverts are outgoing, like to meet new people, and are assertive and willing to confront others, whereas introverts are shy. Extraverts are frequently selected for leadership positions.
+  
+  - **High energy with determination**: Leaders tend to have high energy with a positive drive to work hard to achieve goals, and they create energy in others.25 Their positive attitude and optimism influence their high tolerance for frustration as they strive to overcome obstacles through being persistent; they don’t give up easily.
+  
+---
+
+### Ramah dan Menyenangkan (`Agreeableness`)
+
+The agreeableness personality dimension includes traits of sociability and emotional intelligence.
+
+  - **Sociability/Sensitivity**: Sociable people have an inclination to seek out enjoyable social relationships. Strong sociability personality types are friendly, courteous, easy to get along with, and diplomatic. Sensitivity is part of being sociable. It refers to understanding group members as individuals. 
+  - **Emotional Intelligence**: EI is the ability to work well with people. EQ is being used to identify future leaders. There are four components of EQ:
+    + Self-awareness relates to being conscious of your emotions and how they affect your personal and professional life. 
+    + Social awareness relates to the ability to understand others. Empathy is an ability to put yourself in other people’s situations, sense their emotions, and understand things from their perspective.
+    + Self-management relates to the ability to control disruptive emotions, ours and others. Successful leaders are self-motivated and don’t let negative emotions (worry, anxiety, fear, anger) interfere with getting things done.
+    + Relationship management relates to the ability to work well with others, which is dependent on the other three EI components.
+
+---
+
+### Cakap Menyesuasikan Diri (`adjustment`)
+
+The adjustment personality dimension includes traits of emotional stability and
+self-confidence.
+
+  - **Emotional stability/self-control and narcissism**: Adjustment is on a continuum between being emotionally stable and unstable. Stable refers to self-control, being calm—good under pressure, relaxed, secure, and positive—praising others. Unstable is out of control—poor under pressure, nervous, insecure, negative, and hostile— criticizing others without helping them improve. Narcissism is related to being unstable, and it is on the increase. Narcissists are preoccupied with themselves, ignoring the needs of others, have an exaggerated sense of their own self-importance, and tend to make bad decisions.
+  
+  - **Self-confidence**: It is on a continuum from strong to weak, indicating whether we are self-assured in our judgments, decision making, ideas, and capabilities. Our self-confidence builds with our success at setting and achieving our goals. Effective self-confidence is based on an accurate awareness of our strengths and weaknesses, with an orientation to self-improvement.
+
+---
+
+### Sungguh-sungguh (`Conscientiousness`)
+
+The conscientiousness personality dimension includes traits of dependability and
+integrity. 
+
+- **Dependability**: It is on a continuum between responsible/dependable to irresponsible/undependable. Highly dependable people get the job done and are characterized as loyal, committed to their coworkers and the organization. 
+
+- **Integrity**: It is on a continuum between being honest and ethical or not. Integrity is the foundation for trustworthiness.Integrity is about being honest—no lying, cheating (manipulating), or stealing. Clearly, to be effective, leaders need integrity.
+
+---
+
+### Keterbukaan (`Openness`)
+
+The openness-to-experience personality dimension includes traits of flexibility,
+intelligence, and internal locus of control. 
+
+- **Fleksibilitas**:  It refers to the ability to adjust to different situations and change. Flexible people are generally more creative and innovative—willing to try new things and change. 
+- **Intelligence**: It refers to cognitive ability to think critically, to solve problems, and to make decisions. It is also referred to as general mental ability intelligence quotient (IQ). Intelligence is the best predictor of job performance but not the only one as conscientiousness is also important.
+- **Locus of control**: It is on a continuum between external and internal belief in control over one’s destiny/ performance. 
+  - `Externalizers` believe that they have no control over their fate and that their behaviour has little to do with their performance. 
+  - `Internalizers` believe that they control their fate and that their behavior directly affects their performance. Effective internalizer leaders take responsibility for who they are, for their behaviour and performance, and for the performance of their organizational unit.
+
+---
+
+### Profil Kepribadian Pemimpin yang Efektif
+
+- Achievement Motivation theory attempts to explain and predict behavior and
+performance based on a person’s need for **achievement, power, and affiliation**. 
+- Through an unconscious process, our behavior is motivated by our desire to satisfy our needs.
+
+#### Kebutuhan untuk Berprestasi (The Need for Achievement (n Ach))
+
+- The need for achievement is the concern for excellence in accomplishments through
+individual efforts. High n Ach is categorized as the Big Five dimension of conscientiousness with dependability, but the person is not necessarily being high in integrity. 
+- People with high n Ach tend to be characterized as wanting to take personal responsibility for solving problems. They are goal oriented and set moderate, realistic, and attainable goals.
+- They seek challenge, excellence, and individuality; take calculated, moderate risk; desire concrete feedback on their performance; and work hard
+
+#### Kebutuhan untuk Berkuasa (The Need for Power (n Pow))
+
+- The need for power is the concern for influencing others and seeking positions of
+authority. High n Pow is categorized as the Big Five dimension of surgency. 
+- People with
+a high need for power tend to be characterized as wanting to control the situation, wanting influence or control over others, enjoying competition in which they can win (they don’t like to lose), being willing to confront others, and seeking positions of authority and
+status. 
+- They tend to be ambitious and have a lower need for affiliation and agreeableness.
+- They are attuned to power and politics as essential for successful leadership, and they tend to seek management positions.
+
+#### Kebutuhan Afiliasi (The Need for Affiliation (n Aff))
+
+- The need for affiliation is the concern for developing, maintaining, and restoring close personal relationships. High n Aff is categorized as the Big Five dimension of agreeableness. People with strong n Aff have the trait of sociability/sensitivity and often high EI.
+- People with high n Aff tend to be characterized as seeking close relationships with others, wanting to be liked by others, enjoying lots of social activities, and seeking to belong; so they join groups and organizations. 
+- People with high n Aff are more concerned about
+what others think of them than about getting their own way (influencing others). N Aff
+is negatively related to leadership. 
+- Those with a high n Aff tend to have a low n Pow; they
+tend to avoid management because they like to be one of the group rather than its leader.
+
+---
+
+### Leader Motive profile theory
+
+- Leader Motive profile theory attempts to explain and predict leadership success
+based on a person’s need for achievement, power, and affiliation.
+
+- The Leader Motive profile (LMp) includes a high need for power, which is socialized, that is greater than the need for affiliation and with a moderate need for achievement.
+
+---
+
+### Sikap Kepemimpinan (`Leadership Attitudes`)
+
+- Sikap adalah perasaan positif atau negatif terhadap orang, sesuatu hal atau suatu masalah. 
+
+### Teory X dan Teory Y
+
+- Theory X and theory Y mencoba menjelaskan dan memprediksi perilaku kepemimpinan dan kinerjanya atas dasar sikap seorang pemimpin terhadap pengikutnya.  
+
+- Orang dengan Teori X beranggapan bahwa karyawan tidak suka bekerja dan harus diawasi (ketat) agar bekerja dengan baik. Teori Y menganggap bahwa karyawan suka bekerja dan tidak perlu diawasi dengan ketat. 
+
+- Managers with Theory X attitudes tend to have a negative, pessimistic view of employees and display more coercive, autocratic leadership styles using external means of controls, such as threats and punishment. Managers with Theory Y attitudes tend to have a positive, optimistic view of employees and display more participative leadership styles using internal motivation and rewards.
+
+- It is widely accepted that managers with Theory Y attitudes are generally more productive than Theory X attitudes.
+
+---
+
+### Efek pygmalion
+
+- The pygmalion effect proposes that leaders’ attitudes toward and expectations of
+followers, and their treatment of them, explain and predict followers’ behavior and
+performance. 
+
+- Advises setting a higher standard; 
+- the worst disservice you can do as a coach, teacher, parent, or leader is to expect little and lower standards. 
+- treat employees well and get them in a good mood as they start their day can have a huge impact on performance.
+
+---
+
+### Konsep Diri (`Self-Concept`)
+
+- Sikap pemimpin terhadap diri mereka sendiri. 
+- Konsep diri adalah sikap positif atau negatif seseorang terhadap diri mereka sendiri. 
+- If you have a positive view of yourself as being a capable person, you will tend to have the positive self-confidence trait. 
+- Self-efficacy is the belief in your own capability to perform in a specific situation, which is based on your self-concept and self-confidence.
+
+> If you think you can, you can; if you think you can’t, you can’t. Henry Ford
+
+---
+
+## Bagaimana cara mengembangkan konsep diri dan sikap yang lebih positif?
+
+1. Menyadari bahwa hanya sedikit manfaat (kalaupun ada) bersikap negatif terhadap diri sendiri dan orang lain. 
+
+2. Secara sadar mempertahankan sikap positif dan optimistik. If you don’t have a positive attitude, it may be caused by your unconscious thoughts and behaviour. Only with conscious effort can you improve your self-concept.
+3. Husnudzon. Mengembangkan pikiran-pikiran optimistik. Scientific evidence suggests that your thoughts affect every cell in your body. Every time you think positive thoughts, your body, mind, and spirit respond. Use positive self-talk—I will do a good job; it will be done on time; and so on. Also use mental imagery—picture yourself achieving your goal.
+4. Menghentikan dan mengubah pikiran-pikiran negatif yang muncul dengan pikiran positif. With time, you will catch yourself less often as you become more
+positive about yourself.
+5. Menghindari orang-orang "nyinyir" khususnya orang yang selalu membuat kita merasa negatif tentang diri kita sendiri. Bergaul dengan orang-orang punya konsep diri yang positif dan menggunakan perilaku positif mereka. Masih ingat dengan *wong kang soleh kumpulono*? 
+6. Menetapkan dan berupaya mencapai tujuan yang ditetapkan. Set short-term goals (daily, weekly, monthly) that you can achieve. Achieving specific goals will improve your self-concept.
+7. Fokus pada keberhasilan, move on, jangan berlama-lama meratapi kegagalan. We are all going to make mistakes and experience failure, but we need to bounce back. If you achieve 2 of 3 goals, dwell on the 2 and forget the one you missed. 
+8. Syukuri prestasi sekecil apapun dan tidak sering membandingkan dengan orang lain. If you meet a goal and say it was easy anyway, you are being negative. If you compare yourself to someone else and say they are better, you are being negative. No matter how good you are, there is almost always someone better. Di atas langit ada langit. So focus on being the best that you can be, rather than putting yourself down for not being the best.
+9. Menghargai pujian. When someone compliments you, say thank you; it builds self-
+concept. Don’t say things like it was nothing, or anyone could have done it, because
+you lose the opportunity for a buildup.
+10. Jadi teladan yang baik. If the leader has a positive attitude, the followers usually do too. We can choose to be optimistic or pessimistic—and we usually find what we are looking for. 
+11. Bantu orang lain. Orang yang paling baik adalah yang paling berguna bagi orang lain. When things go wrong and you’re feeling down, do something to help someone who is worse off than you. You will realize that you don’t have it so bad, and you will realize that the more you give, the more you get. Volunteering at a hospital, soup kitchen, or becoming a Big Brother or Sister can help change your attitude. This is also a great cure for loneliness.
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/pimagribisnis" data-a2a-title="Ciri-ciri dan Kepribadian Pemimpin">
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_telegram"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
