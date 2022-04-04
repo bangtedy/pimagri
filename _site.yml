@@ -11,7 +11,7 @@ repository_url: https://github.com/bangtedy/pimagribisnis
 creative_common: CC BY
 collections:
   posts:
-    share: [twitter,facebook,linkedin]
+
 navbar:
   right:
     - text: "Sekilas"
