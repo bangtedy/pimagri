@@ -1,0 +1,59 @@
+---
+title: "Pengaruh: Kekuasaan, Politik dan Negosiasi"
+description: |
+  Individu sebagai Pemimpin (4)
+
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+    
+base_url: https://bangtedy.github.io/pimagribisnis
+twitter:
+  creator: "@t_hlb"
+
+date: 2022-04-13
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r load_packages, echo=FALSE}
+library('fontawesome')
+```
+
+## `r fa('readme')` Pendahuluan
+
+Di pertemuan pertama sudah kita bahas bahwa *leadership is the “influencing” process of leaders and followers to achieve organizational objectives through change*.
+Mempengaruhi sangat penting sehingga disebut sebagai esensi dari kepemimpinan. 
+
+After studying this chapter, you should be able to:
+
+- [x] Explain the differences between position power and
+personal power.
+
+- [x] Discuss the differences among legitimate, reward, coercive,
+and referent power.
+- [x] Discuss how power and politics are related. 
+- [x] Describe how money and politics have a similar use.
+
+---
+
+## `r fa('book-open')` KEKUASAAN
+
+- Besides excellent work, what does it take to get ahead in an organization?
+To climb the corporate ladder, you will have to influence people—to gain
+power, play organizational politics, network, and negotiate to get what you
+want. 
+
+- Power is the fundamental concept in social science,4 and power skills can be taught and developed. 
+- If we want to understand why organizations do the things they do, we must
+consider the power of managers and how power differences affect team and organiza-
+tional performance. 
+- Power is about achieving influence over others. 
+- However, power is the leader’s potential influence over followers. Because power is the potential to influence, you do not actually have to use power to influence others. Often, it is the perception of power, rather than the actual use of power, that influences others. 
