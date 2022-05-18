@@ -144,10 +144,3 @@ Kata manajer sering diartikan sebagai orang yang punya otoritas dan jabatan form
 - Teori ini mencoba mengkombinasikan trait, behavioral, dan contingency theories untuk menjelaskan keberhasilan kepemimpinan. 
 - Teori-teori ini mengidentifikasi perilaku, ciri-ciri yang memfasilitasi efektivitas pemimpin dan mengeksplorasi mengapa perilaku seorang pemimpin mempunyai dampak berbeda tergantung pada situasinya. 
 
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/pimagribisnis" data-a2a-title="Siapa dan Seperti Apakah Seorang Pemimpin Itu?">
-<a class="a2a_button_whatsapp"></a>
-<a class="a2a_button_telegram"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->

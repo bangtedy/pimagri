@@ -231,12 +231,3 @@ Methods of punishment include harassing, taking away privileges, probation, fini
 - *Extinction*: rather than encourage desirable behaviour, extinction (and punishment) attempts to reduce or eliminate undesirable. Extinction also includes ignoring the behaviour to get the employee to stop it.
 
 
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/pimagribisnis" data-a2a-title="Perilaku Kepemimpinan">
-<a class="a2a_button_whatsapp"></a>
-<a class="a2a_button_telegram"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->

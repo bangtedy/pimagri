@@ -23,11 +23,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r load_packages, echo=FALSE}
-library('fontawesome')
-```
 
-## `r fa('readme')` Pendahuluan
+## Pendahuluan
 
 Di pertemuan pertama sudah kita bahas bahwa *leadership is the “influencing” process of leaders and followers to achieve organizational objectives through change*.
 Mempengaruhi sangat penting sehingga disebut sebagai esensi dari kepemimpinan. 
@@ -44,7 +41,7 @@ and referent power.
 
 ---
 
-## `r fa('book-open')` KEKUASAAN
+## KEKUASAAN
 
 - Besides excellent work, what does it take to get ahead in an organization?
 To climb the corporate ladder, you will have to influence people—to gain
