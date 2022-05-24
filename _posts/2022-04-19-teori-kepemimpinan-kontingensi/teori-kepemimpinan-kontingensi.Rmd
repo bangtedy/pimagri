@@ -1,0 +1,27 @@
+---
+title: Teori Kepemimpinan Kontingensi
+description: |
+  Individu sebagai Pemimpin (5).
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+date: '2022-04-19'
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Tujuan Pembelajaran
+
+Setelah mempelajari bab ini Anda diharapkan mampu:
+
+1. Menjelaskan perbedaan antara teori kepemimpinan perilaku dan kontingensi. 
+2. Menjelaskan variabel-variabel teori kepemimpinan kontingensi.
+3. Menjelaskan model gaya dan variabel teori kepemimpinan kontingensi. 
+4. Menjelaskan persamaan dan perbedaan antara teori kepemimpinan kontingensi dan perilaku.
+5. Menjelaskan empat perbedaan utama pada empat model teori kepemimpinan kontingensi. 
