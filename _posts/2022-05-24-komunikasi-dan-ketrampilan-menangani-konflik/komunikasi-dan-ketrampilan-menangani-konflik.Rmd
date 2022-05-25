@@ -1,5 +1,5 @@
 ---
-title: Komunikasi dan Ketrampilan Menangani Konflik
+title: Keterampilan Komunikasi dan Menangani Konflik
 description: |
   Kepemimpinan di dalam kelompok (1).
 author: 
@@ -21,84 +21,71 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Setelah mempelajari bab ini Anda diharapkan mampu:
 
-1. List the steps in the oral message-sending process.
-2. List and explain the three parts of the
-message-receiving process.
-3. Describe paraphrasing and state why it is used.
-4. Define the five conflict management styles. 
-5. List the steps in the initiating conflict resolution
-model. 
+1. Menjelaskan langkah-langkah di dalam proses mengirim pesan secara lisan.
+2. Menjelaskan tahap-tahap proses menerima pesan. 
+3. Menjelaskan tentang paraphrasing dan alasan penggunaannya.
+4. Menjelaskan gaya-gaya manajemen konflik. 
+5. Menjelaskan langkah-langkah di dalam model resolusi konflik. 
 
-## Communication
+## Komunikasi
 
-- Communication
-is the process of conveying information and meaning. 
+- Communication is the process of conveying information and meaning. 
 - True communication takes place
 only when all parties understand the message (information) from the same perspective
 (meaning).
 
-### Communication and Leadership
+### Komunikasi dan Kepemimpinan
 
 - Managers spend around 40 percent of their time communicating.
-- Leadership is
-about influencing others, and we do so through communications.
-- Leadership is
-also about building relationships, which is also based on communications. 
-- Thus,
-there is a positive relationship between communication competency and leader-
+- Leadership is about influencing others, and we do so through communications.
+- Leadership is also about building relationships, which is also based on communications. 
+- Thus, there is a positive relationship between communication competency and leader-
 ship performance.
-- Organizations are training employees to communicate better
-to influence others to get their jobs done.
+- Organizations are training employees to communicate better to influence others to get their jobs done.
 
-### Sending Messages and Giving Instructions
+### Mengirim Pesan dan Memberikan Instruksi
 
-#### Before sending a message, we should plan it, remembering that brevity rules. 
-#### Answer these questions while planning. 
+#### Sebelum mengirim pesan, kita harus merancang pesan dengan baik, singkat dan padat: 
+
    + What is the goal of my message? 
    + Who should receive my message? 
    + When will my message be transmitted? 
    + Where will my message be transmitted?
    + How will I send the message?
    
-#### The Oral Message-Sending Process
+#### Proses menyampaikan pesan secara lisan
    + develop rapport; 
    + state your communication objective; 
    + transmit your message; 
    + check the receiver’s understanding; and 
    + get a commitment and follow up. 
    
-## Managing Conflict
+## Mengelola Konflik
 
 - Poor communications, and feedback, can lead to conflict. 
-- A conflict exists
-whenever people are in disagreement and opposition. 
-- Conflict is part of everyday life in
-organizations;53 it affects everyone involved and how we manage conflict affects performance.
+- A conflict exists whenever people are in disagreement and opposition. 
+- Conflict is part of everyday life in organizations; it affects everyone involved and how we manage conflict affects performance.
 - With the trend toward teamwork, conflict skills are increasingly important; as managers spend about 25 percent of their time resolving conflicts.
 - Thus, ability to resolve conflicts will have a direct effect on your leadership success.
 
-## The Psychological Contract
+## Kontrak Psikologis
+
 - All human relations rely on the psychological contract. 
-- The psychological contract is the
-unwritten implicit expectations of each party in a relationship. 
-- At work, you have a set of
-expectations of what you will contribute to the organization (effort, time, skills) and what
-it will provide to you (compensation, job satisfaction, etc.). 
+- The psychological contract is the unwritten implicit expectations of each party in a relationship. 
+- At work, you have a set of expectations of what you will contribute to the organization (effort, time, skills) and what it will provide to you (compensation, job satisfaction, etc.). 
 - We are often not aware of our expectations until they have not been met (for example, how we are treated by a manager).
 
-### Conflict Arises by Breaking the Psychological Contract
+### Konflik Timbul karena Pelanggaran Kontrak Psikologis:
 
-The psychological contract is broken for two primary reasons:
-
-- (1) We fail to make explicit our own expectations and fail to inquire into the expectations of the other parties; and/ or 
-- (2) we further assume that the other party(ies) has the same expectations that we hold.
+- We fail to make explicit our own expectations and fail to inquire into the expectations of the other parties; and/ or 
+- We further assume that the other party(ies) has the same expectations that we hold.
 
 --> To help form the psychological contract, organizations have values, norms, and rules to
 guide fair and legitimate behaviour.
 
---> Conflict Can Be Dysfunctional or Functional
+--> Konflik dapat Dysfunctional atau Functional
 
-## Conflict Management Styles
+## Gaya Manajemen Konflik
 
 - Avoiding Conflict Style
 - Accommodating Conflict Style

@@ -6,13 +6,14 @@ listing: posts
 twitter:
   creator: "@t_hlb"
 ---
+
 ```{r, include=FALSE, results='asis'}
 library(metathis)
 
 meta() %>%
   meta_social(
     title = "Kepemimpinan Agribisnis",
-    description = "Silabus dan Materi Kepemimpinan Agribisnis",
+    description = "Materi Keterampilan Kepemimpinan Agribisnis",
     url = "https://bangtedy.github.io/pimagribisnis",
     image = "",
     image_alt = "",

@@ -1,5 +1,5 @@
 ---
-title: "Pim Agribisnis"
+title: "Keterampilan Kepemimpinan Agribisnis"
 description: |
   
 ---
@@ -8,13 +8,11 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-#### Nama Mata Kuliah: Keterampilan Kepemimpinan Agribisnis
+### Kode Mata Kuliah: PAGR2637
 
-#### Kode Mata Kuliah: PAGR2637
+### SKS/Pertemuan: 3/16
 
-#### SKS/Pertemuan: 3/16
-
-#### Dosen: [Tedy Herlambang](https://bangtedy.github.io)
+### Dosen: [Tedy Herlambang](https://bangtedy.github.io)
 
 ### Deskripsi Mata Kuliah
 
